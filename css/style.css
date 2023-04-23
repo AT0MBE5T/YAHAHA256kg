@@ -91,3 +91,128 @@
 /* ====================================================================== */
 /* =========================== SECTION STYLES =========================== */
 /* ====================================================================== */
+/* =-=-=-=-=-=-=-=-=-=- HEADER section =-=-=-=-=-=-=-=-=-= */
+.header{
+  height: 100vh;
+  background-image: url(/img/header/headerBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header__container{
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logos img{
+  transition: transform 0.2s ease-in;
+}
+
+.header__logos img:hover{
+  transform: scale(1.02);
+}
+
+.header__logos img:not(:last-child){
+  margin-right: 77px;
+}
+
+.header__img{
+  margin-top: -15px;
+  animation: 2s linear 1s infinite alternate headerImgAnimation;
+}
+
+.header-img__mob{
+  display: none;
+}
+
+.header__title{
+  margin-top: -100px;
+  margin-bottom: 10px;
+}
+
+.header-title__text{
+  font-family: 'Inter';
+  color: var(--text-white);
+  font-weight: 700;
+  font-size: 37.4344px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.header-info{
+  width: 500px;
+  height: 68px;
+  position: relative;
+  background-image: url(/img/header/infoBg.svg);
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header__info{
+  margin-bottom: 40px;
+}
+
+.header-info__date{
+  font-family: Inter;
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
+
+.header-info__location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.header-info__location span:first-child{
+  font-weight: 500;
+  font-size: 31.5044px;
+  line-height: 31px;
+  letter-spacing: 0.09em;
+}
+
+.header-info__location span:nth-child(2){
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+}
+
+.header__btn:not(:last-child){
+  margin-right: 25px;
+}
+
+.btn__title span{
+  display: none;
+}
+
+@keyframes headerImgAnimation {
+  0%{
+    transform: translateY(0);
+  }
+
+  50%{
+    transform: translateY(-3px);
+  }
+
+  0%{
+    transform: translateY(0);
+  }
+}
