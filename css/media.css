@@ -45,7 +45,7 @@
     
     /* Header info */
     .header-info{
-        background-image: url(/img/header/infoBgMdl.svg);
+        background-image: url(../img/header/infoBgMdl.svg);
         width: 313px;
         height: 52px;
         display: flex;
