@@ -1,4 +1,8 @@
 @media screen and (max-width: 450px) {
+    .wrapper{
+      overflow-x: hidden;
+    }
+
         /* === === === section HEADER === === ===  */
     .header{
         height: 755px;
