@@ -139,3 +139,9 @@
         padding: 68px 22px;
     }
 }
+
+@media screen and (max-width: 375){
+    .wings__info{
+        padding: 47px 22px;
+    }
+}
