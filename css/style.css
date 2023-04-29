@@ -243,3 +243,182 @@
   padding: 53px 0;
 }
 
+
+/* =-=-=-=-=-=-=-=-=-=- ARTICLES section =-=-=-=-=-=-=-=-=-= */
+.sectionArticles__header{
+  position: relative;
+  text-align: center;
+  background: url(../img/SectionArticles/mazok.svg) no-repeat;
+  background-position: 125px;
+  margin-bottom: 60px;
+}
+
+.sectionArticles__container{
+  padding-top: 54px;
+  padding-bottom: 194px;
+}
+
+.sectionArticles-header__text{
+  z-index: 1;
+  position: relative;
+  width: 1043.83px;
+  height: 94px;
+  top: 13.85px;
+  font-weight: 700;
+  font-size: var(--text-title);
+  line-height: 47px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: var(--text-light);
+  margin: 0 auto;
+}
+
+.sectionArticles-footer__imgcontainer{
+  margin-right: 61px;
+}
+
+.sectionArticles__footer{
+  position: relative;
+  padding: 28px 50px;
+}
+
+.sectionArticles-footer__img{
+  width: 486.73px;
+  height: 243.37px;
+}
+
+.sectionArticles-footer__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-content);
+  line-height: 34px;
+  color: var(--text-light);
+}
+
+.sectionArticles-footer__btn{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 120px;
+  height: 29px;
+}
+
+.sectionArticles-btn__img{
+  width: 17.29px;
+  height: 17.36px;
+}
+.sectionArticles-btn__text{
+  text-decoration: none;
+  width: 85px;
+  height: 29px;
+  text-transform: uppercase;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: var(--text-mbltitle);
+  line-height: 29px;
+  color: var(--btn-yellow);
+}
+
+.sectionArticles-footer__textandbutton{
+  position: relative;
+  bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+
+.sectionArticles__linetop{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.sectionArticles__linebottom{
+  position: absolute;
+  left: 0;
+  top: 7px;
+  z-index: -1;
+}
+
+.sectionArticles-footer__wrapper{
+  display: flex;
+}
+
+
+
+
+
+
+ .sectionProjDesc__sec2img{
+  height: auto;
+  position: relative;
+}  
+
+ .sectionProjDesc__img{
+  position: absolute;
+  z-index: -1;
+  mix-blend-mode: color-dodge;
+  width: 100%;
+  height: 100%;
+}
+
+.sectionProjDesc{
+  background: url(../img/SectionProjectDescription/bacg.png) center/cover no-repeat;
+}
+
+.sectionProjDesc__container{
+  padding: 173px 0;
+}
+
+.sectionProjDesc__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionProjDesc__header{
+  background: url(../img/SectionProjectDescription/mazok.png) center/450px no-repeat;
+  margin-bottom: 60px;
+}
+
+.sectionProjDesc-header__text{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: var(--text-title);
+  text-align: center;
+  color: var(--text-light);
+  width: 100%;
+  height: 100%;
+}
+
+.sectionProjDesc-wrapper__text{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: var(--text-content);
+  line-height: 34px;
+  color: var(--text-light);
+  width: 595px;
+  margin-bottom: 36px;
+}
+
+.sectionProjDesc__span{
+  font-weight: 700;
+}
+
+.sectionProjDesc-wrapper__button{
+  margin: 0;
+  z-index: 1;
+}
+
+.sectionProjDesc__footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
