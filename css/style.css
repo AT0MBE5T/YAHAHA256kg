@@ -219,7 +219,7 @@
 /* =-=-=-=-=-=-=-=-=-=- WINGS section =-=-=-=-=-=-=-=-=-= */
 .wings__container{
   max-width: 1455px;
-  padding: 92px 0;
+  padding: 92px 15px;
 }
 
 .wings-info__top{
