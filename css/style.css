@@ -422,3 +422,147 @@
   align-items: center;
   gap: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=- OUR INVESTORS section =-=-=-=-=-=-=-=-=-= */
+.investors__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 190px;
+  border: 1px solid white;
+  border-radius: 10px;
+  opacity: 60%;
+}
+
+.investors__logos-row{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.investors__logos-row--second{
+  padding-bottom: 0;
+}
+
+.investors__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 82px;
+  margin-bottom: 60px;
+  background-image: url(../img/ourinvestors/titlebg.png);
+  background-size: 33% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.investors{
+  padding-top: 125px;
+  background-color: #21262E;
+  padding-bottom: 63px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=- OUR PARTNERS section =-=-=-=-=-=-=-=-=-= */
+
+.partners{
+  padding-top: 55px;
+  background-color: #21262E;
+  padding-bottom: 180px;
+}
+
+.partners__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 190px;
+}
+
+.partners__item-mobile{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 190px;
+}
+
+.partners__logos-row{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.partners__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 82px;
+  margin-bottom: 60px;
+  background-image: url(../img/ourinvestors/titlebg.png);
+  background-size: 33% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.partners__group{
+  display: flex;
+  gap: 20px;
+}
+
+.partners__group--one{
+  margin-bottom: 40px;
+  animation: partners_animation-one 5s ease-in-out infinite alternate;
+}
+
+.partners__group--two{
+  flex-direction: row-reverse;
+  animation: partners_animation-two 5s ease-in-out infinite alternate;
+}
+
+.partners__content{
+  overflow: hidden;
+}
+
+@keyframes partners_animation-one{
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes partners_animation-two{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+/* =-=-=-=-=-=-=-=-=-=- FOOTER section =-=-=-=-=-=-=-=-=-= */
+
+.footer{
+  background-color: #191E25;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer > p{
+  line-height: 27px;
+  padding: 10px;
+}
