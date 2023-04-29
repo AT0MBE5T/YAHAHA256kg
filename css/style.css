@@ -215,3 +215,31 @@
     transform: translateY(0);
   }
 }
+
+/* =-=-=-=-=-=-=-=-=-=- WINGS section =-=-=-=-=-=-=-=-=-= */
+.wings__container{
+  max-width: 1455px;
+  padding: 92px 0;
+}
+
+.wings-info__top{
+  font-size: 16px;
+  color: rgba(216, 225, 239, 0.6);
+  font-family: 'Inter', sans-serif;
+  line-height: 19.5px;
+}
+.wings-info__bottom{
+  font-size: 22px;
+  color: rgba(216, 225, 239, 0.87);
+  font-family: 'Inter', sans-serif;
+  line-height: 44px;
+}
+
+.wings__info{
+  background-image: url(../img/imgMain1/yahahawings.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 53px 0;
+}
+
