@@ -141,7 +141,8 @@
 }
 
 @media screen and (max-width: 375){
-    .wings__info{
-        padding: 47px 22px;
+    .wings__container {
+        padding-top: 0;
+        padding-bottom: 35px;
     }
 }
