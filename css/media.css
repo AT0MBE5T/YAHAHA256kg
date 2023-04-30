@@ -230,6 +230,124 @@
     
     
     
+     /* === === === section ARTICLES === === ===  */
+    
+     .sectionArticles__linebottom, .sectionArticles__linetop, .sectionArticles-header__img{
+        display: none;
+      }
+
+          .sectionArticles__header{
+            height: 250px;
+            width: 1165px;
+            background: url(../img/SectionArticles/mazokmedia.svg) no-repeat;
+            background-size: 900px;
+            background-position: 140px;
+          }
+
+          .sectionArticles-header__text{
+            padding: 0 100px;
+            font-size: 75px;
+            height: 210px;
+            line-height: 75px;
+          }
+          .sectionArticles__footer{
+            padding: 44px 50px;
+          }
+          .sectionArticles-footer__wrapper{
+            gap: 50px;
+            flex-direction: column;
+            padding: 40px 45px;
+            width: 1050px;
+            background: url(../img/SectionArticles/around.png) 0 0/100% 100% no-repeat;
+          }
+          .sectionArticles-footer__textandbutton{
+            justify-content: space-around;
+            gap: 60px;
+          }
+          .sectionArticles-footer__img{
+            display: none;
+          }
+
+          .sectionArticles-footer__text{
+            font-family: 'Inter', sans-serif;
+            font-size: 40px;
+            line-height: 55px;
+          }
+
+          .sectionArticles-footer__imgcontainer{
+            height: 500px;
+            margin-right: 0;
+            background: url(../img/SectionArticles/image.svg) center/cover no-repeat;
+          }
+
+
+          .sectionArticles-btn__text{
+            font-size: 60px;
+          }
+          .sectionArticles-btn__img{
+            width: 35px;
+            height: 35px;
+          }
+
+          .sectionArticles-footer__btn{
+            width:inherit;
+          }
+
+
+
+
+          .sectionProjDesc__wrapper{
+            margin: 0 auto;
+            top: 200px;
+            width: 1000px;
+          }
+          .sectionProjDesc-wrapper__text{
+            width: 1000px;
+            font-size: 35px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 100;
+            line-height: 50px;
+          }
+          .sectionProjDesc-header__text{
+            font-size: 75px;
+            background-size: 75% 100%;
+            background-position: 125px -30px;
+            height: 100px;
+          }
+
+          .sectionProjDesc{
+            width: 1200px;
+          }
+
+          .sectionProjDesc-wrapper__button{
+            display: flex;
+            justify-content: center;
+            height: 125px;
+            width: 800px;
+          }
+
+          .sectionProjDesc-wrapper__btn{
+            width: 75px;
+            height: 75px;
+          }
+
+          .sectionProjDesc-wrapper__btnImg{
+            width: 75px;
+            height: 75px;
+          }
+
+          .sectionProjDesc-wrapper__btnText{
+            font-size: 50px;
+          }
+          .sectionProjDesc__header{
+            padding-top: 100px;
+            background-size: 850px 125px;
+            background-position: center;
+            background-position-y: 50px;
+          }
+    
+    
+    
         /* === === === section showcase === === ===  */
         .showcase__container{
             padding: 50px 15px; 
