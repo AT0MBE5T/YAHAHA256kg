@@ -301,6 +301,13 @@
         }
 }
 
+@media screen and (max-width: 410px){
+    .wings__container{
+        padding-bottom: 0;
+    }
+}
+
+
 @media screen and (max-width: 400px){
     .wings__info{
         padding: 68px 22px;
