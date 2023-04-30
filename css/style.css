@@ -24,7 +24,6 @@
   display: inline-flex;
   align-items: center;
   position: relative;
-  /* margin-right: 50px; */
 }
 .btn::before{
   content: '';
