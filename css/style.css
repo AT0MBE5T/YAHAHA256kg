@@ -245,6 +245,102 @@
 }
 
 
+/* =-=-=-=-=-=-=-=-=-=- DISCORD GDC section =-=-=-=-=-=-=-=-=-= */
+.drow{
+  background-image: url(../img/imgDiscord/titleDiscord.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 14px 0;
+}
+.discord__title{
+  margin-bottom: 110px;
+}
+
+.discord__steps{
+  margin-bottom: 43px;
+}
+.steps{
+  display: flex;
+  gap: 25px;
+}
+
+.steps__item{
+  width: 381px;
+  padding: 30px;
+  background-image: url(../img/imgDiscord/steps.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+.step__title{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px; 
+  line-height: 52px;
+  color:  #4A525F;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.step__text{
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px; 
+  line-height: 26px;
+  color:  #D8E1EF;
+  font-weight: 400;
+}
+
+
+.discord__date{
+  margin-bottom: 40px;
+}
+
+.date__title{
+  position: relative;
+  width: 229px;
+}
+.date__title-first{
+  font-family: 'Rubik', sans-serif;
+  color: #D8E1EF;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+.date__title-second{
+  padding-left: 15px;
+}
+
+.date__text{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #D8E1EF;
+  padding-top: 10px;
+}
+.discord__img{
+  position: absolute;
+  bottom: 22px;
+  right: 271px;
+  pointer-events: none;
+  filter: grayscale(100%);
+  opacity: 40%;
+}
+.discord__container{
+  padding-top: 92px;
+  padding-bottom: 136px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.date__title-line{
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  background-color: var(--text-light);
+}
+.btn__title span{
+  display: none;
+}
+
+
 /* =-=-=-=-=-=-=-=-=-=- ARTICLES section =-=-=-=-=-=-=-=-=-= */
 .sectionArticles__header{
   position: relative;
