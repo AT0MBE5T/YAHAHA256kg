@@ -19,13 +19,12 @@
 /* --- Buttton --- */
 .btn{
   font-size: var(--text-btn);
-  display: inline-block;
   border-radius: 105px;  
   padding: 12px 30px;
   display: inline-flex;
   align-items: center;
   position: relative;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .btn::before{
   content: '';
