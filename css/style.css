@@ -316,8 +316,8 @@
 }
 .discord__img{
   position: absolute;
-  bottom: 22px;
-  right: 271px;
+    bottom: -244px;
+    right: 109px;
   pointer-events: none;
   filter: grayscale(100%);
   opacity: 40%;
