@@ -419,6 +419,14 @@
         }
 }
 
+@media screen and (max-width: 434px) {
+    .showcase-wrapper__sideimg{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
 @media screen and (max-width: 410px){
     .wings__container{
         padding-bottom: 0;
