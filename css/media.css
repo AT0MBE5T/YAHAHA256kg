@@ -110,7 +110,7 @@
     /* === === === section WINGS === === ===  */
     .wings__container{
         padding-top: 23px;
-        padding-bottom: 50px;
+        padding-bottom: 35px;
       }
       .wings-info__top{
         font-size: 14px;
@@ -228,125 +228,104 @@
         display: inline;
       }
     
-    
-    
-     /* === === === section ARTICLES === === ===  */
-    
-     .sectionArticles__linebottom, .sectionArticles__linetop, .sectionArticles-header__img{
-        display: none;
-      }
+          /* ============ SECTION ARTICLES ================ */
+          .sectionArticles__container{
+            padding-top: 33px;
+            padding-bottom: 65px;
+          }
 
           .sectionArticles__header{
-            height: 250px;
-            width: 1165px;
-            background: url(../img/SectionArticles/mazokmedia.svg) no-repeat;
-            background-size: 900px;
-            background-position: 140px;
+            background: url(../img/SectionArticles/titleBg.png) no-repeat;
+            background-position: center;
+            background-size: 251px;
+            margin-bottom: 17px;
           }
 
           .sectionArticles-header__text{
-            padding: 0 100px;
-            font-size: 75px;
-            height: 210px;
-            line-height: 75px;
+            width: auto;
+            height: auto;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 26px;
+            padding: 5px 42px;
           }
+
           .sectionArticles__footer{
-            padding: 44px 50px;
+            background-image: url(../img/SectionArticles/around.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            padding: 35px 15px;
           }
           .sectionArticles-footer__wrapper{
-            gap: 50px;
-            flex-direction: column;
-            padding: 40px 45px;
-            width: 1050px;
-            background: url(../img/SectionArticles/around.png) 0 0/100% 100% no-repeat;
+            display: block;
           }
-          .sectionArticles-footer__textandbutton{
-            justify-content: space-around;
-            gap: 60px;
-          }
-          .sectionArticles-footer__img{
+
+          .sectionArticles__footer > img{
             display: none;
           }
 
+          
+
+          .sectionArticles-footer__imgcontainer{
+            margin-bottom: 12px;
+          }
+
+          .sectionArticles-footer__textandbutton{
+            position: static;
+            display: block;
+          }
+
           .sectionArticles-footer__text{
-            font-family: 'Inter', sans-serif;
-            font-size: 40px;
-            line-height: 55px;
+            margin-bottom: 12px;
+          }
+
+          .sectionArticles-footer__img{
+            height: auto;
           }
 
           .sectionArticles-footer__imgcontainer{
-            height: 500px;
             margin-right: 0;
-            background: url(../img/SectionArticles/image.svg) center/cover no-repeat;
           }
 
-
-          .sectionArticles-btn__text{
-            font-size: 60px;
-          }
-          .sectionArticles-btn__img{
-            width: 35px;
-            height: 35px;
+          .sectionArticles-footer__img{
+            width: 100%;
           }
 
-          .sectionArticles-footer__btn{
-            width:inherit;
+          .sectionArticles-footer__text{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
           }
-
-
-
-
-          .sectionProjDesc__wrapper{
-            margin: 0 auto;
-            top: 200px;
-            width: 1000px;
-          }
-          .sectionProjDesc-wrapper__text{
-            width: 1000px;
-            font-size: 35px;
-            font-family: 'Inter', sans-serif;
-            font-weight: 100;
-            line-height: 50px;
-          }
-          .sectionProjDesc-header__text{
-            font-size: 75px;
-            background-size: 75% 100%;
-            background-position: 125px -30px;
-            height: 100px;
-          }
-
-          .sectionProjDesc{
-            width: 1200px;
-          }
-
-          .sectionProjDesc-wrapper__button{
-            display: flex;
-            justify-content: center;
-            height: 125px;
-            width: 800px;
-          }
-
-          .sectionProjDesc-wrapper__btn{
-            width: 75px;
-            height: 75px;
-          }
-
-          .sectionProjDesc-wrapper__btnImg{
-            width: 75px;
-            height: 75px;
-          }
-
-          .sectionProjDesc-wrapper__btnText{
-            font-size: 50px;
+    
+    
+          /* ============ SECTION description YAHAHA ================ */
+          .sectionProjDesc__container{
+            padding: 77px 15px;
           }
           .sectionProjDesc__header{
-            padding-top: 100px;
-            background-size: 850px 125px;
-            background-position: center;
-            background-position-y: 50px;
+            margin-bottom: 32px;
+            padding: 10px 0px;
+            background-size: 275px 50px;
           }
-    
-    
+
+          .sectionProjDesc-header__text{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+          }
+
+          .sectionProjDesc-wrapper__text{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            width: auto;
+            margin-bottom: 20px;
+          }
+
+
+
+
     
         /* === === === section showcase === === ===  */
         .showcase__container{
@@ -417,6 +396,103 @@
             height: 47px;
             width: auto;
         }
+
+
+        /* === === === section OUR INVESTORS === === ===  */
+    .investors__title{
+      margin-bottom: 32px;
+  }
+
+  .investors__title .title,
+  .partners__title .title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+
+  .investors__logos-row{
+      flex-wrap: wrap;
+      gap: 5px;
+      padding-bottom: 5px;
+  }
+
+  .investors__title{
+      background-size: 60% 100%;
+      height: 45px;
+  }
+
+  .investors__item{
+      padding: 10px 17px;
+      width: 135px;
+      height: 55px;
+  }
+
+  .investors__item > img{
+      padding: 10px 17px;
+      width: 111px;
+      height: 47px;
+  }
+  .investors{
+      padding-top: 40px;
+      padding-bottom: 23px;
+  }
+/* === === === section OUR PARTNERS === === ===  */
+  .partners{
+      padding-top: 23px;
+      padding-bottom: 45px;
+  }
+
+  .partners__logos-row{
+      flex-wrap: wrap;
+  }
+
+  .partners__title{
+      background-size: 60% 100%;
+      height: 45px;
+      margin-bottom: 32px;
+  }
+
+  .partners__item{
+      padding: 10px 17px;
+      width: 90px;
+      height: 47px;
+  }
+
+  .partners__item > img{
+      padding: 10px 17px;
+      width: 90px;
+      height: 47px;
+  }
+
+  .partners__item-mobile{
+      display: flex;
+      padding: 10px 17px;
+      width: 90px;
+      height: 47px;
+  }
+  .partners{
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .double{
+      display: none;
+  }
+  .partners__group{
+      animation: none;
+      margin-bottom: 0;
+  }
+
+/* === === === section FOOTER === === ===  */
+
+  .footer{
+      font-size: 11px;
+  }
+
+  .footer > p{
+      line-height: 27px;
+      padding: 4px;
+  }
 }
 
 @media screen and (max-width: 434px) {
@@ -431,6 +507,16 @@
     .wings__container{
         padding-bottom: 0;
     }
+
+
+    /* ============ section ARTICLES ===================== */
+    .sectionArticles__header {
+      margin-bottom: 10px;
+    }
+
+    .sectionArticles__footer {
+      padding: 15px;
+    }
 }
 
 
@@ -443,7 +529,6 @@
 @media screen and (max-width: 375px){
     .wings__container {
         padding-top: 0;
-        padding-bottom: 35px;
     }
     
     .step__title{
@@ -453,4 +538,43 @@
   .discord__btn a .btn__title{
     font-size: var(--text-mblbutton);
   }
+}
+
+
+@media screen and (max-width: 356px) {
+  .sectionArticles__footer {
+    padding: 0;
+  }
+
+  .sectionArticles-footer__imgcontainer{
+    /* width: 300px; */
+    margin: 0 auto;
+    padding-top: 8px;
+  }
+
+  .sectionArticles-footer__wrapper{
+    padding: 10px;
+  }
+  
+  .sectionArticles-btn__text{
+    font-size: 17px;
+  }
+
+  .sectionArticles-btn__img{
+    width: 12px;
+  }
+
+  .sectionArticles-footer__sectionArticles__btn a{
+    margin: 0 0 10px 10px;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  .sectionArticles__footer{
+    background-image: none;
+  }
+  .sectionArticles__container{
+    padding-bottom: 33px;
+  }
+
 }
