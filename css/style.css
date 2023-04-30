@@ -244,11 +244,6 @@
 
 
 /* =-=-=-=-=-=-=-=-=-=- DISCORD GDC section =-=-=-=-=-=-=-=-=-= */
-.discord{
-overflow: hidden;
-    position: relative;
-}
-
 .drow{
   background-image: url(../img/imgDiscord/titleDiscord.svg);
   background-repeat: no-repeat;
@@ -320,9 +315,9 @@ overflow: hidden;
   padding-top: 10px;
 }
 .discord__img{
-    position: absolute;
-    bottom: -275px;
-    right: 267px;
+  position: absolute;
+  bottom: 22px;
+  right: 271px;
   pointer-events: none;
   filter: grayscale(100%);
   opacity: 40%;
@@ -351,6 +346,7 @@ overflow: hidden;
   background: url(../img/SectionArticles/mazok.svg) no-repeat;
   background-position: 125px;
   margin-bottom: 60px;
+  padding-top: 12px;
 }
 
 .sectionArticles__container{
@@ -363,13 +359,6 @@ overflow: hidden;
   position: relative;
   width: 1043.83px;
   height: 94px;
-  top: 13.85px;
-  font-weight: 700;
-  font-size: var(--text-title);
-  line-height: 47px;
-  text-align: center;
-  font-family: 'Rubik', sans-serif;
-  color: var(--text-light);
   margin: 0 auto;
 }
 
