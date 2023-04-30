@@ -522,7 +522,87 @@
 
 
 
+/* =-=-=-=-=-=-=-=-=-=- SHOWCASE section =-=-=-=-=-=-=-=-=-= */
+.showcase__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 15px; 
+}
 
+.showcase__title{
+  background-image: url(../img/showcaseimg/showcasetitlebg.png);
+  background-position: center;
+  width: 372px;
+  padding: 7px 0;
+  margin-bottom: 60px; 
+}
+
+.showcase__info{
+  margin-bottom: 60px;
+  padding: 0 90px;
+}
+
+.showcase-info__text{
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+
+.showcase-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  height: 552px;
+}
+
+.showcase-wrapper__mainimg{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.showcase-wrapper__button{
+  background-color: rgba(46, 46, 46, 0.7);
+  backdrop-filter: blur(44.7145px);
+  border-radius: 100px;
+  width: 117px;
+  height: 117px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.showcase-wrapper__sideimg{
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  justify-content: space-between;
+}
+
+.showcase-wrapper__sideimg img{
+  padding: 4px ;
+  border-radius: 12px;
+}
+
+.showcase-wrapper__sideimg img.active{
+  padding: 4px ;
+  background-color: #FFC200;
+  border-radius: 12px;
+}
+
+.showcase-wrapper__sideimg img:hover{
+  background-color: #FFC200;
+  cursor: pointer;
+}
 
 
 
