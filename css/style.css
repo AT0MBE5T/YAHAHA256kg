@@ -244,6 +244,11 @@
 
 
 /* =-=-=-=-=-=-=-=-=-=- DISCORD GDC section =-=-=-=-=-=-=-=-=-= */
+.discord{
+overflow: hidden;
+    position: relative;
+}
+
 .drow{
   background-image: url(../img/imgDiscord/titleDiscord.svg);
   background-repeat: no-repeat;
@@ -315,9 +320,9 @@
   padding-top: 10px;
 }
 .discord__img{
-  position: absolute;
-  bottom: 22px;
-  right: 271px;
+    position: absolute;
+    bottom: -275px;
+    right: 267px;
   pointer-events: none;
   filter: grayscale(100%);
   opacity: 40%;
