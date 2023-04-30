@@ -227,6 +227,78 @@
       .btn__title span{
         display: inline;
       }
+    
+    
+    
+        /* === === === section showcase === === ===  */
+        .showcase__container{
+            padding: 50px 15px; 
+        }
+
+        .showcase__title{
+            background-image: url(../img/showcaseimg/showcasetitlebgmobile.png);
+            height: 44px;
+            width: 236px;
+            padding: 4px 0;     
+            margin-bottom: 8px;     
+        }
+
+        .showcase-title__text{
+            margin-top: 8px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28.44px;
+        }
+
+        .showcase__info{
+            margin-bottom: 32px;
+            padding: 0 12px;
+        }
+        
+        .showcase-info__text{
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .showcase-wrapper{
+            flex-direction: column;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .showcase-wrapper__mainimg > img{
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 9px;
+
+        }
+          
+        .showcase-wrapper__button{
+            width: 57px;
+            height: 57px;  
+        }
+
+        .showcase-wrapper__button img{
+            width: 12px;
+            height: 14px;
+        }
+        
+        .showcase-wrapper__sideimg{
+            flex-direction: row;
+        }
+
+        .showcase-wrapper__sideimg img.active{
+            padding: 2px ;
+            background-color: #FFC200;
+            border-radius: 6px;
+          }
+
+        .showcase-wrapper__sideimg img{
+            padding: 2px ;
+            border-radius: 6px;
+            height: 47px;
+            width: auto;
+        }
 }
 
 @media screen and (max-width: 400px){
