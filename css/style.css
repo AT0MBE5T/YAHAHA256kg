@@ -244,6 +244,10 @@
 
 
 /* =-=-=-=-=-=-=-=-=-=- DISCORD GDC section =-=-=-=-=-=-=-=-=-= */
+.discord{
+  position: relative;
+}
+
 .drow{
   background-image: url(../img/imgDiscord/titleDiscord.svg);
   background-repeat: no-repeat;
